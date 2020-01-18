@@ -73,11 +73,18 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-.bar a{
+a{
+    text-decoration: none;
+    color: black;
+}
+.navigationfive nav .bar{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     text-align: center;
-    padding: 5%;
+    text-decoration: none;
+    color: black;
+    padding: 2.5%;
 }
 
 .top-content {
@@ -248,12 +255,22 @@ footer nav a {
     text-decoration: none;
 }
 
-/* about,html section*/
+/* about.html section*/
 
 header .jumbo img{
     display: block;
     margin-left:auto;
     margin-right: auto;
+}
+.navigationtwo nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;;
+}
+.navigationtwo nav a{
+text-decoration: none;
+color: black;
+padding: 2.5%;
 }
 .top-section{
     margin-top: 3%;
@@ -266,16 +283,82 @@ header .jumbo img{
 }
 .section-two{
     display: flex;
-    justify-content: space-evenly;
-    columns: 2;
-    width;
+    flex-direction:row;
+    justify-content: space-between;
+    columns: 2;   
 }
 
+ .strategy{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.strategy .divone{
+    display: flex;
+    flex-direction: column;
+}
+.strategy .str{
+    padding: 2%;
+    
+}
+.strategy .one{
+    padding: 2%;
+}
+.strategy .button{
+    padding: 2%;
+}
+.strategy .divtwo{
+    display: flex;
+    flex-direction: column;
+}
+.strategy .work{
+    
+    padding: 2%;
+    padding-right: 4%;
+}
+.strategy .two{
+padding: 2%;
+}
+.strategy .buttontwo{
+    padding: 2%;
+}
 .section-three{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     columns: 2; 
 }
-img{
-    padding: 10%;
+.whole{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: dotted black 2px;
+    padding: 3%;
+}
+.whole .places{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.whole .that{
+    padding: 2%;
+}
+.places .buttonthree{
+    padding: 2%;
+}
+.whole .collaboration{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.collaboration .this{
+    padding: 2%;
+}
+.collaboration .buttonfour{
+    padding:3%
+}
+footer{
+    margin-top: 3%;
 }
