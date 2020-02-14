@@ -28,6 +28,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
 body {
 	line-height: 1;
 }
@@ -58,6 +66,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    margin-top: 5%;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -71,6 +80,7 @@ p {
     margin: 0 auto;
 }
 
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +93,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 4%;
 }
 
 .middle-content {
@@ -111,6 +122,99 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxes .box1{
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.boxes .box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.boxes .box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.boxes .box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.boxes .box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.boxes .box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.boxes .box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.boxes .box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.boxes .box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +247,143 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about.html section*/
+
+.jumbo img{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.navigationtwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:60%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.top-section{
+    margin-top: 3%;
+}
+.top-section p{
+    text-align: center;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 2px dotted black;
+}
+.section-two{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    columns: 2;   
+}
+
+ .strategy{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.strategy .divone{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    margin-bottom: 5%;
+}
+.str{
+    text-align: left;
+}
+.strategy .one{
+    text-align: left;
+}
+.strategy .button{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+.strategy .divtwo{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+.strategy .work{
+        text-align: left;
+}
+.strategy .two{
+    text-align: left;
+}
+.strategy .buttontwo{
+    text-align: left;
+    padding-top: 17px;
+}
+.section-three{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    columns: 2; 
+}
+.whole{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.whole .places{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.whole .that{
+    padding: 2%;
+}
+.places .buttonthree{
+    padding: 2%;
+    border-bottom: 2px dotted black;
+    padding:3.5%;
+
+}
+.whole .collaboration{
+    display: flex;
+    flex-direction: column;
+    margin-left:6%;
+}
+.collaboration .this{
+    padding: 2%;
+}
+.collaboration .buttonfour{
+    padding:3%;
+    padding-bottom: 5%;
+    padding-top: 6%;
+    border-bottom: 2px dotted black;
+}
+button{
+    border-radius: 12px;
+    background-color:white;
+    color:black;
+    border: 2px solid black;
+    width:40%;
+    padding:12px;
+}
+.bottom-section .together{
+    font-size: 25px;
+}
+
+footer{
+    margin-top: 3%;
 }
