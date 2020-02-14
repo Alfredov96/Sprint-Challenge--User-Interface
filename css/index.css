@@ -31,6 +31,11 @@ footer, header, hgroup, menu, nav, section {
 *{
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
 body {
 	line-height: 1;
 }
@@ -61,6 +66,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    margin-top: 5%;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -73,19 +79,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-.navigationfive nav .bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    padding: 2.5%;
-}
+
 
 .top-content {
     display: flex;
@@ -257,21 +251,31 @@ footer nav a {
 
 /* about.html section*/
 
-header .jumbo img{
+.jumbo img{
     display: block;
     margin-left:auto;
     margin-right: auto;
 }
-.navigationtwo nav{
+.navigationtwo{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;;
+    justify-content: space-between;
+    width:60%;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
-.navigationtwo nav a{
-text-decoration: none;
-color: black;
-padding: 2.5%;
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
 }
+a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+}
+
 .top-section{
     margin-top: 3%;
 }
@@ -298,31 +302,36 @@ padding: 2.5%;
 .strategy .divone{
     display: flex;
     flex-direction: column;
+    border-bottom: 2px dotted black;
+    margin-bottom: 5%;
 }
-.strategy .str{
-    padding: 2%;
-    
+.str{
+    text-align: left;
 }
 .strategy .one{
-    padding: 2%;
+    text-align: left;
 }
 .strategy .button{
-    padding: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
 }
 .strategy .divtwo{
     display: flex;
     flex-direction: column;
+    border-bottom: 2px dotted black;
+    margin-bottom: 5%;
+    margin-left: 8%;
 }
 .strategy .work{
-    
-    padding: 2%;
-    padding-right: 4%;
+        text-align: left;
 }
 .strategy .two{
-padding: 2%;
+    text-align: left;
 }
 .strategy .buttontwo{
-    padding: 2%;
+    text-align: left;
+    padding-top: 17px;
 }
 .section-three{
     display: flex;
@@ -334,8 +343,6 @@ padding: 2%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    border-bottom: dotted black 2px;
-    padding: 3%;
 }
 .whole .places{
     display: flex;
@@ -347,18 +354,36 @@ padding: 2%;
 }
 .places .buttonthree{
     padding: 2%;
+    border-bottom: 2px dotted black;
+    padding:3.5%;
+
 }
 .whole .collaboration{
     display: flex;
     flex-direction: column;
-    margin: 2%;
+    margin-left:6%;
 }
 .collaboration .this{
     padding: 2%;
 }
 .collaboration .buttonfour{
-    padding:3%
+    padding:3%;
+    padding-bottom: 5%;
+    padding-top: 6%;
+    border-bottom: 2px dotted black;
 }
+button{
+    border-radius: 12px;
+    background-color:white;
+    color:black;
+    border: 2px solid black;
+    width:40%;
+    padding:12px;
+}
+.bottom-section .together{
+    font-size: 25px;
+}
+
 footer{
     margin-top: 3%;
 }
